@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {
+
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+
+      font-size: 62.5%;
+
+    }
+
+    .container {
+
+      max-width: 90rem;
+      margin: 0 auto;
+      overflow: hidden;
+      font-size: 1.6rem
+    }
+
+
+
+    .logo {
+      top: 0;
+      left: 0;
+      transform: translate(76%, 4%);
+    }
+
+    .search {
+      background-color: #EEEEEE;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.6rem;
+      width: 100%;
+      padding: 1.6rem;
+
+    }
+
+    .search-box {
+      width: 30rem;
+    }
+
+    .search-text {
+      margin-bottom: 1rem;
+    }
+
+    .search-button {
+
+      display: flex;
+      gap: 1.6rem;
+      padding: 1.8rem;
+    }
+
+    .button-item {
+      padding: 0.4rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 2.4fr 1.2fr 3.2fr;
+      text-align: center;
+      justify-content: center;
+      column-gap: 0.2rem;
+      font-size: 1.4rem;
+    }
+
+    .special-searches {
+      background-color: #7EE5DA;
+      padding: 1.6rem 3.2rem;
+    }
+
+    .special-searches-2 {
+      background-color: #70CCC2;
+      padding: 1.6rem 3.2rem;
+    }
+
+    .special-searches-3 {
+      background-color: #62B3AA;
+      padding: 1.6rem 3.2rem;
+    }
+
+    .sub-part {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .bottom-part {
+      display: flex;
+      padding: 1.8rem 1.2rem;
+      justify-content: center;
+      align-items: center;
+      background-color: #EEEEEE;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <img class="logo" src="google.jpg" alt="">
+  </div>
+
+
+  <div class="container search">
+
+    <div class="search-text">
+      <p>Search the web using Google</p>
+    </div>
+    <input name="search" class="search-box"></input>
+    <div class="search-button">
+      <button class="button-item">Google Search</button>
+      <button class="button-item">I'm feeling lucky</button>
+    </div>
+
+  </div>
+
+
+
+  <div class=" container grid">
+
+    <div class="special-searches">
+      <ol>Special Searches
+        <ul><a href="">Stanford Searches</a></ul>
+        <ul><a href="">Linux Search</a></ul>
+      </ol>
+    </div>
+
+    <div class="special-searches-2">
+      <ol>
+        <ul><a href="">Help!</a></ul>
+        <ul><a href="">About Google!</a></ul>
+        <ul><a href="">Company Info</a></ul>
+        <ul><a href="">Google! Logos</a></ul>
+      </ol>
+    </div>
+
+    <div class="special-searches-3">
+      <ol>
+        <ul>Get Google!</ul>
+        <ul>updates monthly:</ul>
+        <ul><input type="search" placeholder="your e-mail"></ul>
+        <div class="sub-part">
+          <ul>
+            <input type="button" value="Subscribe">
+            <a href="#">Archieve</a>
+          </ul>
+        </div>
+      </ol>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container bottom-part">
+      <h4>Copyright &copy;1998 Google Inc.</h4>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
